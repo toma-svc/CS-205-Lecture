@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+header {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2, h3 {
+    /* set a width for the block element */
+    width: 300px;
+    /* this centers the block element */
+    margin: auto;
+    /* this centers the text within the block */
+    text-align: center;
+}
+footer {
+    text-transform: uppercase;
+    text-align: right;
+    /* rem is relative sizing to the default font size */
+    font-size: .5rem;
+    border-top: solid black 1px;
+    padding-top: 2px;
+}
+.readingImage {
+    /* specify heigth OR width to scale images */
+    height: 150px;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+}
+a:hover {
+    color: red;
+    text-transform: uppercase;
+}
+#readList, #toRead {
+    color: violet;
+    border-top: 2px black solid;
+    padding-top: 5px;
+}
+#toRead {
+    list-style-type: lower-greek;
+}

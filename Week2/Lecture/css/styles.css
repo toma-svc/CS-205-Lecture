@@ -1,0 +1,36 @@
+footer {
+    background-color: goldenrod;
+    
+}
+footer:hover {
+    color: white;
+}
+#bigPlanet {
+    background-color: yellow;
+}
+.bigBorders {
+    border: 3px double black;
+}
+body > p {
+    color: red;
+}
+p {
+    background-color: black;
+    color: blue;
+    margin: 0px;
+}
+.highlight {
+    color: green;
+}
+main p {
+    color: violet;
+}
+p.bigBorders {
+    padding: 5px;
+    width: 150px;;
+}
+span {
+    width: 300px;
+    /* display: inline-block; */
+    height: 100px;
+}
