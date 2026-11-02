@@ -1,0 +1,11 @@
+.assignmentName {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.completed {
+    background-color: gray;
+    text-decoration: line-through;
+}
+button {
+    margin: 5px 5px;
+}
