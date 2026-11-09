@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Browser</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+</head>
+
+<body>
+    <div class="box is-flex is-justify-content-space-around">
+        <input type="text" id="movie" class="input is-rounded">
+        <button id="btnSearch" class="button is-rounded is-primary">Search</button>
+    </div>
+    <!-- create a place to put the movies -->
+    <div id="movie-box" class="container is-flex is-flex-wrap-wrap is-justify-content-space-evenly"></div>
+    <template id="movie-card">
+        <article class="message">
+            <div class="message-header">
+                <p id="movie-title">Hello World</p>
+            </div>
+            <div class="message-body">
+                <figure class="image is-4by3">
+                    <img id="movie-poster" src="https://bulma.io/assets/images/placeholders/1280x960.png" style="width: 150px;"
+                        alt="Placeholder image" />
+                </figure>
+                <p id="movie-year" class="has-text-weight-bold has-text-centered"></p>
+            </div>
+        </article>
+
+    </template>
+</body>
+
+</html>
